@@ -1,0 +1,104 @@
+.header-style {
+
+}
+.topbar {
+    height: 40px;
+    background-color: #1433D6;
+    /* background-color: #0094E0; */
+    color: #ffffff;
+}
+.topbar .topbar-rolling-text {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.topbar .topbar-link {
+    height: 40px;
+    text-align: right;
+}
+.topbar .topbar-link ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none; 
+    padding-top: 8px;
+    padding-bottom: 8px;    
+}
+.topbar .topbar-link ul li {
+    display: inline-block;
+}
+.topbar .topbar-link ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.topbar .topbar-link ul li a:hover {
+    text-decoration: underline;
+}
+.topnav {
+    border-bottom: 1px solid #E3E8F4;
+}
+.bg-body-tertiary {
+    background-color: #ffffff !important;
+}
+.navbar-nav .nav-link {
+    display: block;
+    border-radius: 50px;
+    font-weight: 500;
+    background-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.navbar-nav .nav-link:hover {
+    background-color: #0d6efd;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+.topsubnav {
+    border-bottom: 1px solid #E3E8F4;
+}
+.topsubnav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+.topsubnav ul li {
+    display: inline-block;
+}
+.topsubnav ul li a {
+    display: block;
+    text-decoration: none;
+    /* color: #4D659E; */
+    color: #595959;
+    /* font-weight: 500; */
+    padding: 10px 20px 10px 20px;
+}
+.topsubnav ul li a:hover {
+    /* background-color: #c3dafc; */
+    color: #0d6efd;
+}
+.topsubnav ul li a.active {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .hide-1024 {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .hide-1024 {
+        display: none;
+    }    
+    .hide-767 {
+        display: none;
+    }
+}
