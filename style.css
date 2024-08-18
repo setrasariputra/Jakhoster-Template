@@ -91,7 +91,7 @@
     background-color: #0d6efd;
     color: #ffffff;
 }
-.body-content {
+body, .body-content {
     background-color: #F9FAFE;
 }
 .heroblog {
@@ -204,6 +204,14 @@ a.link-big {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+.horizontal-rule-medium {
+    border-top: none;
+    border-bottom: 2px dashed #081E56;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .blog-section-title {
     color: #081B4B;
     margin-bottom: 40px;
@@ -260,10 +268,55 @@ a {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-@media (min-width: 1025px) and (max-width: 1366px) {
+.article-title-container {
+    text-align: center;
+}
+.article-title-container .article-title {
+    background: linear-gradient(to bottom, #0AC2FF, #F9FAFE);
+    padding-top: 40px;
+}
+.article-title-container .article-title h1 {
+    max-width: 800px;
+    margin: auto;
+    font-weight: bold;
+    color: #081B4B;
+}
+.article-title-container .article-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.body-article {
+
+}
+.body-article p {
+    font-size: 18px;
+}
+.article-content {
+    
+}
+.vertical-posts-list {
+
+}
+.vertical-posts-list ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.vertical-posts-list ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #cccccc;
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
     .blog-posts .post-title-container {
         height: 150px;
     }
+    .article-title h1 {
+        font-size: 34px;
+    }
+    .article-info p {
+        font-size: 16px;
+    }    
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .hide-1024 {
@@ -301,6 +354,12 @@ a {
     .blog-posts p {
         font-size: 14px;
     }
+    .article-title h1 {
+        font-size: 30px;
+    }
+    .article-info p {
+        font-size: 18px;
+    }    
 }
 @media (max-width: 767px) {
     .hide-1024 {
@@ -309,6 +368,10 @@ a {
     .hide-767 {
         display: none;
     }   
+    .article-content {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }    
 }
 @media (max-width: 576px) {
     .blog-picks .post-title-container {
@@ -321,5 +384,15 @@ a {
     .contact-container {
         text-align: center;
         margin-top: 50px;
+    }
+    .article-title h1 {
+        font-size: 24px;
+    }
+    .article-info p {
+        font-size: 16px;
+    }
+    .article-content {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 }
